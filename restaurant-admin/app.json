@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "restaurant-admin",
+    "slug": "restaurant-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/chef.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET"
+      ],
+      "package": "com.nyn_agrwl_2.restaurantadmin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ddab7129-190d-48dc-9734-3a3f7de88d1c"
+      }
+    }
+  }
+}
